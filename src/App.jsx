@@ -5,6 +5,7 @@ import './App.css'
 import Todo from './Todo'
 import Team from './Team'
 import Users from './Users'
+import Friends from './Friends'
 function App() {
 
 
@@ -13,6 +14,7 @@ function App() {
     <>
       <h1>list of item</h1>
 
+      <Friends></Friends>
       <Users></Users>
 
       <Team></Team>
